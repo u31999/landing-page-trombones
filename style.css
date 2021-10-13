@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #eee;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    min-height: 75px;
+    position: sticky;
+    top: 0;
+}
+
+#header .img img{
+    width: 300px;
+    height: 38px;
+}
+
+.nav #nav-bar{
+    display: inline-flex;
+    justify-content: space-between;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.nav #nav-bar a{
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.nav #nav-bar a:hover{
+    transform: scale(1.1);
+}
+
+
+
+#body-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#body-top form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 15px;
+}
+
+#body-top form input[type="email"]{
+    width: 280px;
+    height: 30px;
+    text-indent: 8px;
+    font-weight: bolder;
+    border: solid 1px black;
+    background-color: white;
+}
+
+#body-top form input[type="submit"]{
+    padding: 5px 30px;
+    border-radius: 5px;
+    background-color: rgba(255, 196, 0, 0.966);
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#body-top form input[type="submit"]:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.icons {
+    width: 60%;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 50px !important;
+
+}
+
+.icons  .icon-flex{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 120px;
+    
+}
+
+.icon-text .pr{
+    padding-left: 25px;
+}
+
+p {
+    font-size: 20px;
+    
+}
+
+.icon-flex i{
+    font-size: 42px;
+    color: rgba(255, 196, 0, 1);
+    align-self: center;
+   
+}
+
+.video {
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.offer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.offer .offer-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    border: solid black 1px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.offer-title{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.offer-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 10px;
+}
+.offer div p{
+    width: 50%;
+    margin: auto;
+}
+
+.offer button{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgba(255, 196, 0, 0.8);
+    border-radius: 5px;
+}
+
+.offer button:hover{
+    color: rgba(255, 196, 0, 0.8);
+    transform: scale(1.1);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.footer{
+    max-width: 70%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.2);
+    height: 100px;
+    margin-top: 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    padding-top: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    border-radius: 2px;
+}
+.footer nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background-color: transparent;
+}
+
+.footer nav a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+.footer nav a:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.copyright{
+    background-color: transparent;
+    align-self: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.copyright em{
+    background-color: transparent;
+    color: rgba(255, 166, 0, 1);
+    text-shadow: 1px 1px 1px black;
+}
+
+.video iframe{
+    width: 100%;
+    
+}
